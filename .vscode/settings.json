@@ -1,0 +1,10 @@
+{
+  "cmake.generator": "MinGW Makefiles", // Укажите ваш генератор (для GCC используйте MinGW)
+  "cmake.buildDirectory": "${workspaceFolder}\\build", // Папка для сборки
+  "cmake.configureOnOpen": true, // Автоматическая конфигурация при открытии проекта
+  "files.associations": {
+      "*.tcc": "cpp",
+      "*.hpp": "cpp"
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
